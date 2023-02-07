@@ -6,15 +6,13 @@ import { ArrowRight, Check } from 'phosphor-react'
 import { Container, Header } from '../styles'
 import { AuthError, ConnectBox, ConnectItem } from './styles'
 
-export default function Register() {
+export default function ConnectCalendar() {
   const session = useSession()
   const router = useRouter()
 
   const hasAuthError = !!router.query.error
   const isSignedIn = session.status === 'authenticated'
-  // async function handleRegister() {}
 
-  console.log(session.data)
   return (
     <Container>
       <Header as="strong">
