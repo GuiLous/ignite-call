@@ -45,4 +45,5 @@ export const FormActions = styled('div', {
   justifyContent: 'flex-end',
   alignItems: 'center',
   gap: '$2',
+  marginTop: '$2',
 })
