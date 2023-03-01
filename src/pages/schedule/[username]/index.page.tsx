@@ -16,7 +16,7 @@ export default function Schedule({ user }: ScheduleProps) {
   return (
     <Container>
       <UserHeader>
-        <Avatar src={user.avatarUrl} />
+        <Avatar src={user.avatarUrl} referrerPolicy="no-referrer" />
         <Heading>{user.name}</Heading>
         <Text>{user.bio}</Text>
       </UserHeader>
